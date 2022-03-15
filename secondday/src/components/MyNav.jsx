@@ -2,9 +2,9 @@ import { Navbar, Nav, Form, FormControl } from "react-bootstrap"
 // import LatestReleases from "./LatestReleases"
 
 const MyNav = () => {
-  const query = document.getElementById("search").value
+  // const query = document.getElementById("search").value
 
-  const searcher = () => {}
+  // const searcher = () => {}
 
   return (
     <Navbar bg="light" expand="lg">
@@ -22,7 +22,7 @@ const MyNav = () => {
             placeholder="Search"
             className="mr-sm-2"
             id="search"
-            onChange={searcher(query)}
+            // onChange={searcher(query)}
           />
         </Form>
       </Navbar.Collapse>
