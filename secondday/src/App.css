@@ -39,4 +39,12 @@
 
 footer {
   height: 20vh;
+  /*   position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 40px; */
+}
+body {
+  background: rgb(65, 62, 62) !important;
 }

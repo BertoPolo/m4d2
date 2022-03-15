@@ -1,7 +1,8 @@
 import { Jumbotron, Button } from "react-bootstrap"
 const Welcome = () => (
   <Jumbotron>
-    <h1>Hello, world!</h1>
+    <h1>Hey there!</h1>
+    <h2>Sa Llibreria Catalana</h2>
     <p>
       This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
       featured content or information.
