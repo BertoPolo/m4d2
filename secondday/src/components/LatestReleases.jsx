@@ -1,7 +1,8 @@
 import books from "../history.json"
 import { Card, Button, Col } from "react-bootstrap"
 
-const LatestReleases = () =>
+const LatestReleases = (query) =>
+  // query.filter books
   books.map((book) => {
     return (
       <>
